@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@1,500&family=Poppins:wght@200;300;400;500;700;800&family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1500px
+}
+.menu-navegacao {
+width: 100%;
+    
+    transition: 1s;
+    z-index: 3;
+    padding: 1% 4%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*background-color: rgb(16, 16, 16);
+    box-shadow: 0px 8px 15px  rgb(25, 25, 25);
+    
+    border-bottom-right-radius:20px ;
+    border-bottom-left-radius:20px ;
+    border-bottom: none;*/
+}
+
+
+.menu-navegacao ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+align-items: center;
+text-align: center;
+margin-left: 12%;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 400;
+font-size: 24px;
+}
+
+.menu-navegacao li {
+display: inline-block;
+margin-right: 110px;
+margin-top: 1%;
+color: white;
+
+}
+.image-home{
+    background-image: url(Rectangle\ 1.png);
+    height: 700px;
+    margin-top: -10%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 10px 15px  rgb(25, 25, 25);
+
+}
+.titulos{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 6%;
+    font-family: 'Poppins';
+    color: white;
+    font-size: 20.5px;
+}
+.titulo2{
+margin-left: 35%;
+font-family: 'Poppins';
+
+}
+
+
+
+.legenda{
+    margin-left: 6%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 30%;
+    font-size: 24px;
+    color: white;
+    white-space:pre-line ;
+
+}
+#traco{
+margin-left: 38%;
+margin-top: 2%;
+}
