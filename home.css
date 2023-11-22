@@ -54,6 +54,7 @@ color: white;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     box-shadow: 0px 10px 15px  rgb(25, 25, 25);
+    background-size: 100vw;
 
 }
 .titulos{
@@ -67,6 +68,7 @@ color: white;
 .titulo2{
 margin-left: 35%;
 font-family: 'Poppins';
+font-weight: 200;
 
 }
 
