@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG Click Transformation</title>
+</head>
+<body>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Change SVG with Animation</title>
+</head>
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+  <circle id="myCircle" cx="50" cy="50" r="30" fill="blue">
+    <animate attributeName="fill" values="blue;red" dur="2s" repeatCount="1" />
+  </circle>
+</svg>
+
+<script>
+  // Adicione um ouvinte de evento para responder a um clique
+  document.getElementById('myCircle').addEventListener('click', function() {
+    // Força o reinício da animação
+    this.beginElement();
+  });
+</script>
+
+</body>
+</html>
+
+      
+
+
+
+</body>
+</html>
+<!--    <svg id="bolha" xmlns="http://www.w3.org/2000/svg" width="261" height="285" viewBox="0 0 261 285" fill="none">
+                        <path d="M246.5 119.5C246.5 202.193 200.891 285 108.552 285C16.2127 285 0 253.589 0 170.897C0 88.204 112.911 0 205.251 0C297.59 0 246.5 36.8073 246.5 119.5Z" fill="#E8FDE1" />
+                    </svg> >>>> estado 1
+                    <svg width="375" height="360" viewBox="0 0 375 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M374.75 83.2154C374.75 221.501 310.361 359.979 180 359.979C49.6387 359.979 0 285.951 0 147.665C0 9.37952 22.8885 20.732 153.25 20.732C283.611 20.732 374.75 -55.0705 374.75 83.2154Z" fill="#E8FDE1"/>
+</svg> >>> estado2
+
+                   -->    
+    
+    

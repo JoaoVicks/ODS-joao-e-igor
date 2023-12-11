@@ -150,23 +150,20 @@ margin-left: -5%;
     z-index: 1;
     margin-left:-10%;
 }
-.monument{
+.monument,.monument2,.monument3{
     position: relative;
     z-index: 2;
-    margin-top: -50%;
-    margin-left: 20%;
+    margin-top: -150%;
+    margin-left: 29%;
+    cursor: pointer;
 }
+
 .bolha2{
     position: absolute;
     z-index: 1;
     margin-left: -10%;
 }
-.monument2{
-    position: relative;
-    z-index: 2;
-    margin-top: -50%;
-    margin-left: 20%;
-}
+
 .bolha3{
     position: absolute;
     z-index: 1;
