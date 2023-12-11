@@ -458,18 +458,22 @@
 
                     <h1>Mande um email</h1>
                     <label for="inome">Nome</label>
-                    <input type="text" name="nome" id="inome" placeholder="Digite seu nome">
-                    <label for="iemail">Email</label>
-                    <input type="email" id="iemail" placeholder="Digite seu email">
+                    <input type="text" name="nome" id="inome" placeholder="Digite seu nome" required maxlength="30"
+                    minlength="5">
+                    <label for="iemail" >Email</label>
+                    <input type="email" id="iemail" placeholder="Digite seu email" required maxlength="40"
+                    minlength="12">
                     <label for="itel">Telefone</label>
-                    <input type="tel" id="itel" placeholder="Digite seu telefone">
+                    <input type="tel" id="itel" placeholder="Digite seu telefone" required maxlength="11"
+                    minlength="11">
                     <label for="itexto">Mensagem</label>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Deixe sua mensagem aqui"></textarea>
-                    <button class="button-enviar">Enviar</button>
+                    <textarea name="" id="den" cols="30" rows="10" placeholder="Deixe sua mensagem aqui"></textarea>
+                   <button type="button" class="button-enviar" onclick="console() ;apagar()" >Enviar</button>
 
                 </fieldset>
 
             </form>
+            
             <svg class="mapa" width="518" height="540" viewBox="0 0 518 540" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M108.71 233.765C87.5183 240.123 74.4167 248.904 74.4167 258.604C74.4167 278.005 126.835 293.729 191.5 293.729C256.165 293.729 308.583 278.005 308.583 258.604C308.583 248.904 295.476 240.123 274.29 233.765" stroke="#47FA05" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M191.5 246.896C191.5 246.896 267.604 197.159 267.604 139.659C267.604 98.6567 233.533 65.4167 191.5 65.4167C149.467 65.4167 115.396 98.6567 115.396 139.659C115.396 197.159 191.5 246.896 191.5 246.896Z" stroke="#47FA05" stroke-width="4" stroke-linejoin="round"/>
